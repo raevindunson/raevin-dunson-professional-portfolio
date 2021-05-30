@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: pink;
+    font-family: 'Times New Roman', 'Georgia', 'Garamond', serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;    
+    background-image: url("..images/hero flowers.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header a {
+    color:white;
+  }
+
+  header a {
+    text-decoration: none;
+    color:white;
+  }
+
+  header nav {
+    margin: 7px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav ul li a:hover {
+    background: pink;
+    color: white;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+  .hero {
+    background-image: url("../images/hero flowers.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+
+  .hero-intro {
+    text-align: right;
+    color: white;
+    font-size: 15px;
+  }
+
+  .hero-intro h2 {
+    font-style: italic;
+    font-size: 40px;
+    color: white;
+  }
+
+  .about-me {
+      display: flex;
+  }
+
+  .about-me h2 {
+      float: left;
+      text-align: left;
+  }
+
+  .about-me p {
+      float: right;
+      text-align: right;
+  }
