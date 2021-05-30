@@ -4,7 +4,7 @@
 }
 
 body {
-    color: pink;
+    color: black;
     font-family: 'Times New Roman', 'Georgia', 'Garamond', serif;
 }
 
@@ -16,7 +16,7 @@ header {
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;    
+    top: 0;
     background-image: url("..images/hero flowers.jpg");
     background-size: cover;
     background-position: center;
@@ -85,21 +85,29 @@ header h1 {
   }
 
   .hero-intro h2 {
-    font-style: italic;
+    font-style: normal;
     font-size: 40px;
     color: white;
   }
 
-  .about-me {
+  main {
+      width: auto;
+      margin: 10px 10px 10px 10px
+  }
+
+  main section{
       display: flex;
+      margin: 20px 20px 20px 20px;
+      padding: 30px;
+      height: 300px;
   }
 
-  .about-me h2 {
-      float: left;
+  main section h2 {
       text-align: left;
+      margin-bottom: 20px;
+      font-size: 36px;
   }
 
-  .about-me p {
-      float: right;
-      text-align: right;
+  main section p {
+      text-align: justify;
   }
