@@ -103,7 +103,7 @@ header h1 {
       width: 20%
   }
 
-  main section p {
+  .content {
       display: flex;
       text-align: left;
       float: right;
@@ -111,18 +111,70 @@ header h1 {
       margin-right: 20px;
       padding: 10px 15px;
       width: 80%;
+      font-size:1vw;
   }
 
   .about-me {
-      height: 70px;
+      height: 100px;
   }
 
   .work {
-      height: 500px;
+      height: 1000px;
+      justify-content: space-between;
+  }
+
+  .first-work {
+      width: 100%
+  }
+
+  .work-list a {
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      text-align: left;
+      padding: 400px 20px 10px 5px;
+      float: none;
+      opacity: 50%;
+      justify-content: space-between;
+  }
+
+  .work a:hover {
+      opacity: 100%;
+  }
+
+  .work-list {
+      flex-direction: column;
+  }
+
+  .work-list p {
+      text-align: left bottom;
+      position: relative;
+      background-color: lightskyblue;
+      color: darkblue;
+      font-size: x-large;
+      opacity: 100%;
+  }
+
+  .first-work {
+      height: 450px;
+  }
+  
+  .sub-work {
+      height: 100px;
+  }
+
+  .challenge-1 {
+      width: 100%;
+      background-image: url("../images/horiseon image.PNG");
+  }
+
+  .run-buddy {
+    width: 50%;
+    background-image: url("../images/run\ buddy\ image.PNG");
   }
 
   .contact-me {
-      height: 200px;
+      height: 100px;
   }
 
   .contact-me nav {
@@ -140,5 +192,5 @@ header h1 {
   .contact-me nav ul li {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 1vw;
   }
