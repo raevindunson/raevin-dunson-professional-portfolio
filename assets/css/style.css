@@ -173,6 +173,11 @@ header h1 {
     background-image: url("../images/run\ buddy\ image.PNG");
   }
 
+  .project-1 {
+    width: 50%;
+    background-image: url("../images/Project\ 1\ Screenshot.PNG")
+  }
+
   .contact-me {
       height: 100px;
   }
