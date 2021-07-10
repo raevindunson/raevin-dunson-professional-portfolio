@@ -170,13 +170,13 @@ header h1 {
   }
 
   .run-buddy {
-    width: 50%;
+    width: 40%;
     background-image: url("../images/run\ buddy\ image.PNG");
     float: right;
   }
 
   .project-1 {
-    width: 50%;
+    width: 40%;
     background-image: url("../images/Project\ 1\ Screenshot.PNG")
   }
 
