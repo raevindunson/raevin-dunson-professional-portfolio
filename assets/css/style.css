@@ -161,6 +161,7 @@ header h1 {
   
   .sub-work {
       height: 100px;
+      display: inline-flex;
   }
 
   .challenge-1 {
@@ -171,6 +172,7 @@ header h1 {
   .run-buddy {
     width: 50%;
     background-image: url("../images/run\ buddy\ image.PNG");
+    float: right;
   }
 
   .project-1 {
