@@ -180,6 +180,11 @@ header h1 {
     background-image: url("../images/Project\ 1\ Screenshot.PNG")
   }
 
+  .project-2 {
+    width: 40%;
+    background-image: url("../images/project\ 2\ screenshot.PNG");
+  }
+
   .contact-me {
       height: 100px;
   }
