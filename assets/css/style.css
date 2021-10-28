@@ -185,6 +185,11 @@ header h1 {
     background-image: url("../images/project\ 2\ screenshot.PNG");
   }
 
+  .project-3 {
+    width: 40%;
+    background-image: url("../images/talktalkscreenshot.png");
+  }
+
   .contact-me {
       height: 100px;
   }
